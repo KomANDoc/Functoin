@@ -1,18 +1,18 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
 int add(int a, int b);
 int sub(int a, int b);
 double dev(int a, int b);
-int mult(int a, int b); // прототип функции
+int mult(int a, int b); // РїСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё
 int step(int a, int b);
 
 void main()
 {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "Russian");
 	int a, b;
-	cout << "Введите а и b " << endl; cin >> a >> b;
-	cout << a << " + " << b << " = " << add(a, b) << endl;// вызов функции 
+	cout << "Р’РІРµРґРёС‚Рµ Р° Рё b " << endl; cin >> a >> b;
+	cout << a << " + " << b << " = " << add(a, b) << endl;// РІС‹Р·РѕРІ С„СѓРЅРєС†РёРё 
 	cout << a << " - " << b << " = " << sub(a, b) << endl;
 	cout << a << " / " << b << " = " << dev(a, b) << endl;
 	cout << a << " * " << b << " = " << mult(a, b) << endl;
@@ -56,4 +56,4 @@ int step(int a, int b)
 		return step;
 	}
 }
-// реализация функции
+// СЂРµР°Р»РёР·Р°С†РёСЏ С„СѓРЅРєС†РёРё
